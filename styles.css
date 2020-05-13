@@ -1,0 +1,137 @@
+@import url('https://fonts.googlepis.com/css?family=Open+Sans:400,500&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+.demo{
+    color:green;
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    background:pink;
+    padding:20px 0;
+    box-shadow: 5px 10px #888888;
+
+    border-radius:9px;
+    margin-bottom:29px;
+    display:none;
+}
+body{
+    background:#9b59b6;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    margin:0;
+    font-family:'Open Sans',sans-serif;
+}
+
+.container{
+    background-color:white;
+    padding:100px;
+    border-radius:5px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.3);
+    width:600px;
+    max-width:100%;
+    overflow: hidden;
+}
+
+.header{
+    background:#9b59b6;
+    padding:20px 40px;
+    border-bottom:1px solid #f0f0f0;
+    color:white;
+    border-radius:9px;
+    margin-bottom: 15px;
+}
+
+.header h2{
+    margin:0;
+    text-align: center;
+    
+}
+
+.form{
+    padding:30px 40px;
+}
+
+.form-control{
+    /* display:flex;
+    flex-direction: column; */
+    margin-bottom: 10px;
+    padding-bottom:20px;
+    position: relative;
+}
+
+.form-control label{
+    display:inline-block;
+    margin-bottom:16px;
+    
+}
+
+.form-control input{
+    border:2px solid #f0f0f0;
+    border-radius:4px;
+    display:block;
+    width:100%;
+    font-family: inherit;
+    font-size:15px;
+    padding:10px;
+}
+
+.form-control i{
+    position: absolute;
+    top:40px;
+    right:10px;
+    visibility: hidden;
+}
+
+.form-control small{
+    position: absolute;
+    bottom:0;
+    left:0;
+    visibility: hidden; 
+}
+
+.form-control.success input{
+    border-color:#2ecc71;
+}
+
+.form-control.error input{
+    border-color:#e74c3c;
+}
+
+.form-control.success i.fa-check-circle{
+    color:#2ecc71;
+    visibility: visible;
+}
+
+
+.form-control.error i.fa-exclamation-circle{
+    color:#e74c3c;
+    visibility: visible;
+}
+
+
+.form-control.error small{
+    color:#e74c3c;
+    visibility: visible;
+}
+
+.btn{
+    width:100%;
+    display:inline-block;
+    padding:20px 6px;
+    border-radius:4px;
+    background:#9b59b6;
+    color:white;
+    text-transform: capitalize;
+    font-weight:bold;
+    font-size:1.0rem;
+    font-family: inherit;
+    cursor: pointer;
+
+}
